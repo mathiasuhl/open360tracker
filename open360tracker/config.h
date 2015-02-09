@@ -58,7 +58,7 @@
  * Enter your city and then get the value for Magnetic declination
  * for example [Magnetic declination: 3° 2' EAST]
  *
- * now enter the value in the format DEGREE.MINUTE -> 3.2
+ * now enter the value in the format DEGREE.MINUTE -> 3.2*10
  *
  * set to 0 if you cannot find your declination!
  */
