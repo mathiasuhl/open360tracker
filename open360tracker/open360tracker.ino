@@ -74,7 +74,7 @@ void loop()
        D = Serial.parseInt();  
     } else if (c == 't'){
       int tilt =  Serial.parseInt();
-      tilt = map(tilt, 0, 180, 1000, 2000);
+      tilt = map(tilt, 0, 90, TILT_0, TILT_90)
       SET_TILT_SERVO_ANGLE(tilt);
     }
   }
